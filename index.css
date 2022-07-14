@@ -23,13 +23,16 @@ body{
     font-style: italic;
   }
   .piano{
-    width: 305px;
+    max-width: 190px;
     height: 210px;
     display: block;
     margin: 0 auto;
     background-color: #fd4d3f;
     margin-top: 30px;
+    border: black 1px solid;
+    align-items: center;
   }
+
   .key{
     width: 30px;
     height: 200px;
@@ -39,16 +42,7 @@ body{
     background-color: white;
     color: #141c3a;
   }
-  .black-key{
-    width: 25px;
-    height: 100px;
-    display: inline-block;
-    background-color: #141c3a;
-    color: white;
-    position: absolute;
-    margin-left: -12px;
-    padding: 0px;
-  }
+
   .keynote{
     width: 20px;
     height: 20px;
@@ -58,12 +52,3 @@ body{
     margin-top: 175px;
     color: #141c3a;
   }
-  .black-keynote{
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    margin-top: 75px;
-  }
-  
